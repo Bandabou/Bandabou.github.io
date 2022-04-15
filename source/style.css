@@ -15,7 +15,9 @@ section {
     background-color: rgb(23, 23, 36);
     color: white;
     font-size: 30px;
-}    
+}
+
+
 
 footer {
     height: 200px;
@@ -151,6 +153,7 @@ p {
     background-color: rgb(23, 23, 36);
     flex-direction: column;
     text-align: center;
+    height: 100vh;
 }
 
 .info {
@@ -170,9 +173,11 @@ p {
 }
 
 .project-sect {
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     box-shadow: 2.5px 5px 15px pink;
+    color: bisque;
+    background-color:  gray;
 
 }
 
