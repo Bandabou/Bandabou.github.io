@@ -77,6 +77,8 @@ p {
     font-size: 20px;
     font-weight: 100;
     margin: 10px;
+    margin-bottom: 70px;
+    
     
     
 }
@@ -175,9 +177,9 @@ p {
 .project-sect {
     width: 300px;
     height: 400px;
-    box-shadow: 2.5px 5px 15px pink;
-    color: bisque;
-    background-color:  gray;
+    box-shadow: 5px 5px 35px rgb(203, 158, 209);
+    color:rgb(0, 0, 0) ;
+    background-color:  rgba(255, 255, 255, 0.767);
 
 }
 
@@ -188,3 +190,34 @@ p {
 
 
 
+.project-image {
+    width: 180px;
+    height: 80px;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+.project-imagepy {
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    margin-bottom: 30px;
+}  
+
+.project-imagehtml {
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    margin-bottom: 30px;
+}  
+
+
+hr {
+    width: 92%;
+   
+}
+
+
+    
+
+    
