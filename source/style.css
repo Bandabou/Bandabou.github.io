@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -20,8 +22,11 @@ section {
 
 
 footer {
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.568);
+    height: 400px;
+    background-color: black;
+    color:white;
+    
+
 }
 
 
@@ -59,6 +64,16 @@ h3 {
     margin: 10px;
 }
 
+h4 {
+   color: white;
+   margin-top: 0px;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   font-size: 40px;
+   padding-top: 30px;
+
+   
+}
 p {
     margin-bottom: 20px ;
     margin-top: -50px;
@@ -72,20 +87,29 @@ p {
     font-size: 25px;
     color: white;
 }
+p3 {
+    margin-left: 30px;
+    font-size: 25px;
+}
 
 .project-subtext {
     font-size: 20px;
     font-weight: 100;
     margin: 10px;
-    margin-bottom: 70px;
-    
+    margin-bottom: 30px;
     
     
 }
 
+.project-descrip {
+    font-size: 15px;
+    font-weight: 100px;
+    margin: 10px;
+}
+
 .project-subtext2 {
     font-size: 20px;
-    margin: 20px;       
+    margin: 10px;       
 }
 
 .hero-text {
@@ -106,7 +130,13 @@ p {
     color: rgb(23, 23, 36);
     border-radius: 20px; 
     text-align: center;
+    text-decoration: none;
+    font-size: 25px
     
+}
+
+.button-a {
+    text-decoration: none;
 }
 
 .button:hover {
@@ -144,6 +174,7 @@ p {
     justify-content: space-between;
     padding: 30px;
     background-color: rgb(23, 23, 36);
+    height: 100vh;
 
 
 }
@@ -194,7 +225,7 @@ p {
     width: 180px;
     height: 80px;
     margin: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .project-imagepy {
@@ -218,6 +249,10 @@ hr {
 }
 
 
-    
 
+    
+.indexref {
+    text-decoration: none;
+    color: lightpink;
+}
     
