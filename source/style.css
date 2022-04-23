@@ -14,7 +14,7 @@ section {
 
 .hero {
     height: 100vh;
-    background-color: rgb(23, 23, 36);
+    background-color: rgb(20, 20, 20);
     color: white;
     font-size: 30px;
 }
@@ -23,7 +23,7 @@ section {
 
 footer {
     height: 400px;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     color:white;
     
 
@@ -48,9 +48,18 @@ li {
     text-decoration: none;
 }
 
+
+ .button-b {
+     margin-bottom: 20px;
+     margin-left: 400px;
+     margin-top: 20px;
+   
+ }
 h1 {
-    font-size: 60px                                                                                                 ;
+    font-size: 60px;                                                                                               ;
 }
+
+
 
 h2 {
     margin: 60px;
@@ -109,7 +118,8 @@ p3 {
 
 .project-subtext2 {
     font-size: 20px;
-    margin: 10px;       
+    margin: 10px; 
+    margin-top: 20px;      
 }
 
 .hero-text {
@@ -126,8 +136,8 @@ p3 {
 .button {
     width: 180px;
     height: 45px;
-    background-color: rgb(255, 158, 218);
-    color: rgb(23, 23, 36);
+    background-color: rgb(0, 252, 0);
+    color: rgb(0, 0, 0);
     border-radius: 20px; 
     text-align: center;
     text-decoration: none;
@@ -137,15 +147,31 @@ p3 {
 
 .button-a {
     text-decoration: none;
+    color: black
+
+}
+
+.button2 {
+    background-color:rgba(255, 255, 255, 0.767);
+    width: 40px;
+    height: 37px;
+    margin-left: 1800px;
+    border-radius: 17px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    
+    
 }
 
 .button:hover {
-    background-color: rgb(255, 196, 189);
+    background-color: rgba(20, 20, 20, 0);
+    color: rgb(0, 252, 0);
 }
 
 .button:active {
-    background-color: aquamarine;
-    color: rgb(148, 137, 123);
+    background-color: rgb(119, 253, 119);
+    color: rgb(0, 0, 0);
 }
 
 .social {
@@ -173,7 +199,7 @@ p3 {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    background-color: rgb(23, 23, 36);
+    background-color: rgb(20, 20, 20);
     height: 100vh;
 
 
@@ -183,7 +209,7 @@ p3 {
 .sub-section2 {
     
     padding: 30px;
-    background-color: rgb(23, 23, 36);
+    background-color: rgb(20, 20, 20);
     flex-direction: column;
     text-align: center;
     height: 100vh;
@@ -208,9 +234,9 @@ p3 {
 .project-sect {
     width: 300px;
     height: 400px;
-    box-shadow: 5px 5px 35px rgb(203, 158, 209);
-    color:rgb(0, 0, 0) ;
-    background-color:  rgba(255, 255, 255, 0.767);
+    box-shadow: 5px 5px 35px rgba(86, 212, 86, 0.678);
+    color:rgb(255, 255, 255) ;
+    background-color:  rgba(12, 12, 12, 0.616);
 
 }
 
@@ -225,7 +251,7 @@ p3 {
     width: 180px;
     height: 80px;
     margin: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .project-imagepy {
@@ -245,6 +271,7 @@ p3 {
 
 hr {
     width: 92%;
+    margin-top: 80px;
    
 }
 
@@ -253,6 +280,6 @@ hr {
     
 .indexref {
     text-decoration: none;
-    color: lightpink;
+    color: rgb(0, 252, 0);
 }
     
